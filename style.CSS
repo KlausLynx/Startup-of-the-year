@@ -1,0 +1,122 @@
+* {
+	text-align: right;
+}
+body {
+	background-image: url(Background.jpg);
+	background-size: cover ;
+}
+
+h2 {
+	color: red;
+}
+
+/*h2 > p [Select all paragraphs whoses parents are h2]*/
+/*h2,p [all h2 and p's should have the same value or properties]*/
+/*h2 p [selects all p's in h2]*/
+/*h2 + p [select p element that is right after h2]*/
+
+p {
+	color: #AA4139;
+	text-align: center;
+	border: 4px solid rgb(255, 176, 170);
+	cursor: pointer;
+	padding-bottom: 0;
+}
+
+p {
+	text-decoration: underline;
+   text-transform: capitalize;
+   line-height: 50px;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 100%;
+  font-family: 'Recursive', sans-serif
+}
+
+img {
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+display {
+	overflow: auto;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+.webtext:first-child {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.2);
+}
+
+ /* || SMALL */
+@media screen and (min-width: 576px)  {
+  body {
+  	background-image: url(Background.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+  }
+}
+
+/* || MEDIUM */
+@media screen and (min-width: 768px)  {
+  body {
+  	background-image: url(Background.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+  }
+}
+
+/* || LARGE */
+@media screen and (min-width: 992px)  {
+  body {
+    background-image: url(Background.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+  }
+}
+
+/* || XL*/
+@media screen and (min-width: 1200px)  {
+  body {
+   	background-image: url(Background.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+  }
+ }
+
+/* || MOBILE DEVICE LANDSCAPE*/
+@media screen and (max-width: 425px) and (min-aspect-ratio: 7/4) {
+  body {
+  	background-image: url(Background.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+  }
+}
